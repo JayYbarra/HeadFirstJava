@@ -1,7 +1,7 @@
-package Chapter01;
+package chapter01;
 
 public class PhraseOMatic {
-	public static void main (String[] args) {
+	public static void main(String[] args) {
 		// make three sets of word to choose from. Add your own!
 		String[] wordListOne = {"24/7","multi-Tier","30,000 foot",
 				"B-to-B","win-win","frontend","web-based","pervasive", 

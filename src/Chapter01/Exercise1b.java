@@ -1,0 +1,18 @@
+package chapter01;
+
+public class Exercise1b {
+	 public static void main(String [] args) {    
+		 int x = 1;    
+		 
+		 while ( x < 10 ) {      
+			 if ( x > 3) {        
+				 System.out.println("big x");      
+				 }    
+			 x = x + 1; // this line was missing in the example
+			 }  
+		 }
+}
+
+// example B is missing the class
+
+// example C is missing the method
