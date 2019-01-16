@@ -1,0 +1,7 @@
+- Variables come in two flavors:
+  1. primitive- hold fundamental values (think: simple bit patterns) including integers, booleans, and floating point numbers.
+  2. reference- hold references to objects.
+  
+- Every variable must have a type and a name. e.g. int count
+
+- A variable is just a cup. A container. It holds something.

@@ -1,0 +1,43 @@
+- A class can have many instance variables- or objects. 
+  e.g. class = dog, object (what it knows) = breed, size, and name, method (what it does) = bark, wag tail
+  
+- The dot operator (.) gives you access to an object’s state and behavior (instance variables and methods).
+  o make a new project
+     Dog d = new Dog();
+  o tell it to bark by using the dot operator on the variable "d" to call bark()
+     d.bark();
+  o set its size using the dot operator
+     d.size = 40;
+     
+- To create and use an object, you need two classes:
+  1. type of object you want to use (Dog, AlarmClock, Television)
+  2. to test your new class- this is where you put the main method, and in the main() method
+     you create and access objects of your new class type. The tester class has only one job: 
+     to try out the methods and variables of your new object class type.
+     
+- There are two uses for your main() method:
+  1. to test your real class
+  2. to launch/start your Java application
+  
+- Whenever an object is created in Java, it goes into an area of memory called the Garbage-Collectible Heap.
+
+- Object-oriented programming lets you extend a program without having to touch previously-tested, working code.
+
+- All Java code is defined in a class.
+
+- A class describes how to make an object of that class type. A class is like a blueprint.
+
+- An object can take care of itself; you don’t have to know or care how the object does it.
+
+- An object knows things and does things. 
+
+- Things an object knows about itself are called instance variables. They represent the state of an object.
+
+- Things an object does are called methods.They represent the behavior of an object.
+
+- When you create a class, you may also want to create a separate test class which you’ll use to create 
+  objects of your new class type.
+  
+- A class can inherit instance variables and methods from a more abstract superclass.
+
+- At runtime, a Java program is nothing more than objects ‘talking’ to other objects.
